@@ -1,50 +1,29 @@
 <!DOCTYPE html>
 <html lang="es-es">
 <head>
-	<title>AIsearch | Buscador inteligente</title>
+	<title>aiSearch | Buscador inteligente</title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="inline.css">
 </head>
 <body>
 <div class="header">
-	<h1><b>AI</b>search</h1>
 	<ul>
 		<li><a href="search">Productos</a></li>
 		<li><a href="search">Nosotros</a></li>
-		<li><a href="search">EMPIEZA A GANAR</a></li>
+		<li class="login"><a href="search">Empieza a ganar</a></li>
 	</ul>
-</div>
-<div class="promo">
-	<div class="info">
-	<h2>Gana dinero por navegar con Google</h2>
-	<p>Registrate y empieza a usar Google desde nuestra página.</p>
-	<a href="search">NAVEGA AHORA</a>
-	</div>
-	<div class="image">
-		<image src="images/untitled.png" height="300px">
-	</div>
-</div>
-
-<div class="promo steps">
-	<div class="info">
-	<h2>Empieza a ganar dinero muy rápido</h2>
-	<ul>
-		<li>Registrate.</li>
-		<li>Usa Google desde nuestra página.</li>
-	</ul>
-	</div>
 </div>
 
 <div class="searchEngine">
-	<h1><b>AI</b>search</h1>
+	<h1><b>ai</b>Search</h1>
 	<form method="GET">
 		<div class="search">
 			<input class="input" type="text" name="search">
 		</div>
 
 		<div class="submit">
-		<button type="submit" name="submit">Search with Google</button>
+		<button type="submit" name="submit">Google Search</button>
 		<button type="submit" name="submit">Nuestros productos</button>
 		</div>
 	</form>
@@ -57,15 +36,24 @@
 	}
 ?>
 
-<footer>
-	<ul>
-		<li>Productos</li>
-		<li>Nosotros</li>
-	</ul>
-	<ul>
-		<li>2019 &copy; AIsearch</li>
-	</ul>
-</footer>
+<h3>Publicidad</h3>
+<div class="ads">
+	<div class="col"></div>
+	<div class="col"></div>
+	<div class="col"></div>
+</div>
+
+<div class="footer">
+	<div>
+		<ul>
+			<li>Privacidad</li>
+			<li>Términos</li>
+			<li>Cookies</li>
+			<li>2019 &copy; AIsearch</li>
+		</ul>
+	</div>
+</div>
 <script src="app.js"></script>
+<!--
 </body>
 </html>
